@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://picsum.photos/1920/1080") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+button {
+    font-size: 2rem;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#Pedra {
+    background-color: #3d2a02;
+}
+
+#Papel {
+    background-color: #f0f0f0;
+}
+
+#Tesoura {
+    background-color: #e90606;
+}
+
+p{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.you-score {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #10047c;
+}
+
+.alexia-score {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: blue;
+}
+
+.you-score span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.alexia-score span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(195, 216, 4)}
